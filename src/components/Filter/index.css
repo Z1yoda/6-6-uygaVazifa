@@ -1,0 +1,63 @@
+ @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+ *{
+    font-family: "Nunito Sans", sans-serif;
+ }
+
+.filter-wrapper {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    border: 1px solid #5361E4;
+    border-radius: 7px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 30px;
+}
+
+.filter-wrapper h1 {
+    color: #5361E4;
+    text-align: center;
+    margin-bottom: 15px;
+font-weight: 700;
+}
+
+input, select {
+    width: 50%;
+    padding: 5px 10px ;
+    height: 35px;
+    outline-color: #5361E4;
+    border:1px solid #5361E4;
+    border-radius: 4px;
+}
+.filterType {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.priceType{
+    display: flex;
+    width: 60%;
+    gap: 15px;
+}
+
+select, option, input::placeholder{
+   color: rgb(3, 8, 16);
+}
+
+.saveBtn {
+    width: 120px;
+    padding: 8px;
+    background-color: rgb(0, 115, 255);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filters {
+    display: flex;
+    gap: 30px;
+}

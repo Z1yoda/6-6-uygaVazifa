@@ -1,0 +1,69 @@
+ @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+ * {
+     font-family: "Nunito Sans", sans-serif;
+ }
+
+ .cards-wrapper {
+    width: 1440px;
+    justify-content: center;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    row-gap: 50px;
+    column-gap: 100px;
+ }
+
+ .card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid #5361E4;
+    border-radius: 7px;
+    overflow: hidden;
+    transition: transform 0.2s;
+ }
+
+ .card:hover {
+transform: scale(1.05);
+    -webkit-box-shadow: 4px 4px 12px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 12px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 12px 0px rgba(34, 60, 80, 0.2);
+ }
+
+ .cardImg {
+    width: 300px;
+    height: 200px;
+ }
+
+ .cardContent {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 6px;
+ }
+
+ span img {
+    width: 20px;
+    height: 20px;
+ }
+
+ span{
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 40px;
+ }
+
+ h3 {
+    font-weight: 600;
+ }
+
+ .aboutBtn{
+    width:  120px;
+    padding: 8px;
+    background-color: rgb(0, 115, 255);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
